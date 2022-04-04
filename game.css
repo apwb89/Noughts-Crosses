@@ -91,3 +91,35 @@ main {
 .winner {
   margin-top: 20px;
 }
+
+.btn {
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  background-color: rgb(47, 113, 255);
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  /* border: 2px solid black; */
+  cursor: pointer;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: rgba(47, 113, 255, 0.4);
+}
+
+.choose-game-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
