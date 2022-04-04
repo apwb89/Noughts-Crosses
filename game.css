@@ -1,34 +1,33 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .game-area {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid black;
-    height: 400px;
-    width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
 }
 
 .grid-element {
-    height: calc(400px/3);
-    width: calc(400px/3);
-    border: 1px solid black;
+  height: calc(400px / 3);
+  width: calc(400px / 3);
+  border: 1px solid black;
 }
 
 div {
-    border-style: none;
-    color: black;
-    font-size: 30px;
+  border-style: none;
+  color: black;
+  font-size: 30px;
 }
-
